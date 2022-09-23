@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --rang:blue;
+    --bg:red;
+    --size: 38px;
+    --chegara: 2px solid green;
+}
+
+.title{
+    color: var(--rang);
+    font-size: var(--size);
+}
+.desc{
+    color: var(--rang);
+    font-size: var(--size);
+}
+.btn{
+    padding: 10px;
+    color: #fff;
+    background-color: var(--bg);
+    border: var(--chegara);
+}
